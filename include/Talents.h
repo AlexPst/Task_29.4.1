@@ -11,6 +11,7 @@ using namespace std;
 class Talents : virtual public Counting, virtual public Dancing, virtual public Swimming{
 
 public:
+    virtual ~Talents() = default;
     virtual void showTalent() = 0;
     virtual void setTalents(Talents* talents, string talent) = 0;
 };

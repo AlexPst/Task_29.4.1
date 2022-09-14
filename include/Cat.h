@@ -6,9 +6,9 @@
 #include "Talents.h"
 
 using namespace std;
-class Cat : virtual public Talents{
+class Cat : public Talents{
 private:
-    vector<string>talentsList;
+    vector<Talents>talentsList;
     string name;
 public:
     Cat(string _name):name(_name){};

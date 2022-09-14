@@ -5,10 +5,10 @@ using namespace std;
 int main() {
     bool isActive = true;
     string command;
+    Talents *talents = new Talents();
     Cat *cat = new Cat("Steve");
-    Talents *talents;
-    string talent = "Swimming";
-    cat->setTalents(talents, talent);
+    string tal = "Swimming";
+    cat->setTalents(talents, tal);
     cat->showTalent();
 
 

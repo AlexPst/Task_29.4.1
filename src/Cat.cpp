@@ -3,7 +3,6 @@
 void Cat::setTalents(Talents* talents, string talent) {
 
     if(talent == "Swimming") {
-
         talentsList.push_back(talents->getTalentSwimming());
     }
     if(talent == "Dancing") {
