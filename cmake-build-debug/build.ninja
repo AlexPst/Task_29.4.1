@@ -61,24 +61,6 @@ build CMakeFiles/HomeWork_29_4_1.dir/src/Cat.cpp.obj: CXX_COMPILER__HomeWork_29_
   OBJECT_DIR = CMakeFiles\HomeWork_29_4_1.dir
   OBJECT_FILE_DIR = CMakeFiles\HomeWork_29_4_1.dir\src
 
-build CMakeFiles/HomeWork_29_4_1.dir/src/Counting.cpp.obj: CXX_COMPILER__HomeWork_29_4_1_Debug C$:/Users/Alex/CLionProjects/HomeWork_29.4.1/src/Counting.cpp || cmake_object_order_depends_target_HomeWork_29_4_1
-  DEP_FILE = CMakeFiles\HomeWork_29_4_1.dir\src\Counting.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\HomeWork_29_4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\HomeWork_29_4_1.dir\src
-
-build CMakeFiles/HomeWork_29_4_1.dir/src/Dancing.cpp.obj: CXX_COMPILER__HomeWork_29_4_1_Debug C$:/Users/Alex/CLionProjects/HomeWork_29.4.1/src/Dancing.cpp || cmake_object_order_depends_target_HomeWork_29_4_1
-  DEP_FILE = CMakeFiles\HomeWork_29_4_1.dir\src\Dancing.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\HomeWork_29_4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\HomeWork_29_4_1.dir\src
-
-build CMakeFiles/HomeWork_29_4_1.dir/src/Swimming.cpp.obj: CXX_COMPILER__HomeWork_29_4_1_Debug C$:/Users/Alex/CLionProjects/HomeWork_29.4.1/src/Swimming.cpp || cmake_object_order_depends_target_HomeWork_29_4_1
-  DEP_FILE = CMakeFiles\HomeWork_29_4_1.dir\src\Swimming.cpp.obj.d
-  FLAGS = -g
-  OBJECT_DIR = CMakeFiles\HomeWork_29_4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\HomeWork_29_4_1.dir\src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HomeWork_29_4_1
@@ -87,7 +69,7 @@ build CMakeFiles/HomeWork_29_4_1.dir/src/Swimming.cpp.obj: CXX_COMPILER__HomeWor
 #############################################
 # Link the executable HomeWork_29_4_1.exe
 
-build HomeWork_29_4_1.exe: CXX_EXECUTABLE_LINKER__HomeWork_29_4_1_Debug CMakeFiles/HomeWork_29_4_1.dir/main.cpp.obj CMakeFiles/HomeWork_29_4_1.dir/src/Cat.cpp.obj CMakeFiles/HomeWork_29_4_1.dir/src/Counting.cpp.obj CMakeFiles/HomeWork_29_4_1.dir/src/Dancing.cpp.obj CMakeFiles/HomeWork_29_4_1.dir/src/Swimming.cpp.obj
+build HomeWork_29_4_1.exe: CXX_EXECUTABLE_LINKER__HomeWork_29_4_1_Debug CMakeFiles/HomeWork_29_4_1.dir/main.cpp.obj CMakeFiles/HomeWork_29_4_1.dir/src/Cat.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HomeWork_29_4_1.dir

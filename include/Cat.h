@@ -6,14 +6,14 @@
 #include "Talents.h"
 
 using namespace std;
-class Cat : public Talents{
+class Cat {
 private:
-    vector<Talents>talentsList;
     string name;
 public:
+    vector<Talents*>talentsList;
     Cat(string _name):name(_name){};
-    void showTalent() override;
-    void setTalents(Talents* talents, string talent) override;
+    void showTalent();
+    void setTalents(Talents* tal);
 
 
 };

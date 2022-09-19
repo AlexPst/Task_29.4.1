@@ -1,16 +1,16 @@
 
 #ifndef HOMEWORK_29_4_1_DANCING_H
 #define HOMEWORK_29_4_1_DANCING_H
-
+#include "Talents.h"
 #include <iostream>
 
 
 using namespace std;
-class Dancing{
-private:
-    string dancing = "Dancing";
+class Dancing : public Talents{
+
 public:
-    string getTalentDancing();
+    ~Dancing(){};
+    virtual string myTalent(){return "Dancing";}
 };
 
 

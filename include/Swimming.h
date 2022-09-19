@@ -2,13 +2,14 @@
 #ifndef HOMEWORK_29_4_1_SWIMMING_H
 #define HOMEWORK_29_4_1_SWIMMING_H
 #include <iostream>
+#include "Talents.h"
 
 
 using namespace std;
-class Swimming{
-private:
-    string swimming = "Swimming";
+class Swimming: public Talents{
+
 public:
-    string getTalentSwimming();
+    ~Swimming(){};
+    virtual string myTalent(){return "Swimming";}
 };
 #endif //HOMEWORK_29_4_1_SWIMMING_H
